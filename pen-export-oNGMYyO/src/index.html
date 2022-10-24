@@ -1,0 +1,117 @@
+<!-- 
+
+Hello Camper!
+
+Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+<div class="container">
+  <header class="header">
+    <h1 id="title" class="text-center">ENCUESTA AUTOMOTORES MARANI</h1>
+    <P id="description" class="description text-center">
+      Gracias por ayudarnos a elegir el auto de tus sueños</p>
+  </header>  
+
+  <form id="survey-form">
+    <div class="form-group">
+      <label id="name-label" for="name">Nombre</label>
+        <input type="text" name="name" id="name" class="form-control" placeholder="Elon Musk" required/>
+    </div>
+    
+    <div class="form-group">
+      <label id="email-label" for="email">Correo electrónico</label>
+      <input type="email" name="email" id="email" class="form-control" placeholder="elonmusk@gmail.com" required/>
+    </div>
+    
+    <div class="form-group">
+      <label id="celular-label" for="celular">Celular</label>
+      <input type="number" name="celular" id="celular" class="form-control" placeholder="sin 0 sin 15" required/>
+    </div>
+    
+    <div class="form-group">
+      <label id="number-label" for="number">Edad<span class="clue">(opcional)</span></label>
+      <input type="number" name="age" id="number" min="16" max="99" class="form-control" placeholder="Años" /> 
+    </div>
+    
+    <div class="form-group">
+      <p>Que valor del vehículo</p>
+      <select id="dropdown" name="valor" class="form-control" required>
+        <option disabled selected value>Elige un valor</option>
+        <option value="Hasta $1.5">Hasta $1.500.000</option>
+        <option value="$1.5 a $2.5">$1.500.000 a $2.500.000</option>
+        <option value="Mas de $2.5">Mas de $2.500.000</option>
+      </select>
+      <p>Modelo Año</p>
+      <select id="dropdown" name="modelo" class="form-control" required>
+        <option disabled selected value>Elige un año</option>
+        <option value="2005-2010">Desde 2005 a 2010</option>
+        <option value="2011-2015">Desde 2011 a 2015</option>
+        <option value="2016-2022">Desde 2016 a 2022</option>
+        <option value="0km">0KM</option>
+      </select>
+      </div>
+  
+    <div class="form-group">
+      <p>Combustible y Modelo<span class="clue">(Elija las opciones)</span></p>
+      <label>
+      <input name="prefer" value="Nafta" type="checkbox" class="input-checkbox">Nafta</label><br>
+      <label>
+      <input name="prefer" value="Diesel" type="checkbox" class="input-checkbox">Diesel</label><br>
+      <label>
+      <input name="prefer" value="GNC" type="checkbox" class="input-checkbox">GNC</label><br>
+      <label>
+      <input name="prefer" value="Automovil" type="checkbox" class="input-checkbox">Automovil</label><br>
+      <label> 
+      <input name="prefer" value="Furgón" type="checkbox" class="input-checkbox">Furgón</label><br>
+      <label>
+      <input name="prefer" value="Pick-up" type="checkbox" class="input-checkbox">Pick-up</label>
+    </div>   
+    
+    <div class="form-group">
+      <P>Marca</p>
+      <label>
+      <input name="user-marca" value="definitely" type="radio" class="input-radio" checked>Ford</label><br>
+      <label>
+      <input name="user-marca" value="Nissan" type="radio" class="input-radio" checked>Nissan</label><br>
+      <label>
+      <input name="user-marca" value="Fiat" type="radio" class="input-radio" checked>Fiat</label><br>
+      <label>
+      <input name="user-marca" value="Toyota" type="radio" class="input-radio"checked>Toyota</label><br>
+      <label>
+      <input name="user-marca" value="Honda" type="radio" class="input-radio" checked>Honda</label><br>
+      <label>
+      <input name="user-marca" value="Renault" type="radio" class="input-radio" checked>Renault</label><br>
+      <label>
+      <input name="user-marca" value="Volkswagen" type="radio" class="input-radio" checked>Volkswagen</label><br>
+      <label>
+      <input name="user-marca" value="Peugeot" type="radio" class="input-radio" checked>Peugeot</label><br>
+      <label>
+      <input name="user-marca" value="Chevrolet" type="radio" class="input-radio" checked>Chevrolet</label><br>
+      <label>
+      <input name="user-marca" value="definitely" type="radio" class="input-radio" checked>Citroen</label><br>
+    </div>
+      
+    <div class="form-group">
+      <p>Escribe sugerencias para ayudarte a encontrar el auto de tus sueños!</p>
+      <textarea id="comments" class="input-textarea" name="comment" placeholder="Escribe tus sugerencias aqui..."></textarea>
+    </div>
+      
+    <div class="form-group">
+      <button type="submit" id="submit" class="submit-button">Enviar</button>
+    </div>
+  </form>
+</div>
+</html>
+      
+    
+    
+      
+    
+      
+             
+             
